@@ -7,10 +7,17 @@ function writeCards(names, event) {
     return thankYouCard;
 }
 
+// function countDown(number){
+//     let value = number;
+//     while (value >= 0){
+//         console.log(value--);
+//     }
+//     return number;
+// }
+
 function countDown(number){
-    let value = number;
-    while (value >= 0){
-        console.log(value--);
+    while (number >= 0){
+        console.log(number--);
     }
     return number;
 }
